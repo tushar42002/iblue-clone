@@ -1,0 +1,143 @@
+.page-heading{
+    background-image: url(img/header-inner-1_0.jpg);
+    background-position-y: -300px;
+    background-position-x: center;
+    
+}
+
+.page-heading .page-heading-container{
+    height: 460px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+
+.page-heading h1{
+    display: block;
+    width: 100%;
+}
+
+
+.about-container1{
+    padding: 200px 0;
+}
+
+.about-container1 p{
+    padding: 20px;
+    min-width: 60%;
+    max-width: 90%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-container2{    
+    padding: 150px;
+    background: #f5f5f5;
+}
+
+.about-container2 .about-post{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-post .post-text{
+    padding: 0 20px;
+}
+
+.about-post .post-text h2{
+    font-weight: 600;
+}
+
+.about-post .post-text p{
+    font-weight: 500;
+}
+
+.text-dul{
+    opacity: 0.8;
+}
+
+.text-dul-1{
+    opacity: 0.6;
+}
+
+.about-post .read-more-btn{
+    border-radius: 5px;
+    background-color: #4064d7;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.about-post .read-more-btn:hover{
+    background-color: #101010;
+}
+
+.image img{
+    width: 100%;
+}
+
+
+/* ========================== media query ================================================= */
+
+
+@media (max-width: 990px) {
+    .about-container2 .about-post{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about-post .image{
+        padding-top: 40px;
+    }
+    
+}
+
+
+
+@media (max-width: 590px) {
+    
+    .about-container2{    
+        padding: 150px 20px;
+    }
+}
+
+
+/* ==========================================  about-container2 ended ===================================== */
+
+
+
+/* ==========================================  client-container start ===================================== */
+
+
+.client-container{
+    background: #4064d7;
+    padding: 5% 20px;
+}
+
+.client-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.client-list li{
+    /* display: inline; */
+    width: 12%;
+    padding-right: 20px;
+    min-width: 80px;
+}
+
+.client-list li a img{
+    width: 100%;
+}
+
+
+/* ==========================================  client-container ended ===================================== */
